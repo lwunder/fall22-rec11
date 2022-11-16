@@ -38,6 +38,10 @@ public class RpsPlugin implements GamePlugin<String> {
         return HEIGHT;
     }
 
+    /**
+     * @requires f is a valid GameFramework
+     * @ensures to return the framework
+     */
     @Override
     public void onRegister(GameFramework f) {
         framework = f;
